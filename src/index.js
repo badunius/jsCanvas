@@ -1,4 +1,6 @@
-import { GFX } from './libCanvas/index.js'
+import { GFX } from '../lib/libCanvas/index.js'
+
+console.log('LOADED')
 
 const PIX_SCALE = 4
 let f = 0
