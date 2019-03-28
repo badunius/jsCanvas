@@ -17,10 +17,10 @@ export class GFX {
     this.cvs.canvas.height = window.innerHeight / scale
     // adding window resize handler
     window.onresize = () => {
-      this.cvs.resize(() => ({
+      this.cvs.resize({
         width:  window.innerWidth  / scale,
         height: window.innerHeight / scale
-      }))
+      })
     }
 
     // creating sprite DB
